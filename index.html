@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loop 3 - Step 6</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="direction">
+                <h4>Cart - Customer Information - Shiping Method - <span>Payment Method</span></h4>
+            </div>
+            <div class="up">
+                <div class="paymentinfo">
+                    <h1>Payment information</h1>
+                    <div class="cardnumber">
+                        <label for="cardnumber">CARD NUMBER</label>
+                        <input type="text" placeholder="**** **** **** ****">
+                    </div>
+                    <div class="carddata">
+                        <div class="holder">
+                            <label for="cardholder">CARD HOLDER</label>
+                            <input type="text" placeholder="Michael Jordan">
+                        </div>
+                        <div class="date">
+                            <label for="expdate">EXP. DATE</label>
+                            <input type="text" placeholder="03/19">
+                        </div>
+                        <div class="cvc">
+                            <label for="cvc">CVC</label>
+                            <input type="password" placeholder="***">
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="product">
+                        <img src="img/order.jpg" alt="order">
+                        <h4>Chocolate bar</h4>
+                        <span>$2.49</span>
+                    </div>
+                    <div class="prices">
+                        <div class="subtotal">
+                            <h4>Subtotal</h4>
+                            <span>$4.98</span>
+                        </div>
+                        <div class="shipping">
+                            <h4>Shipping</h4>
+                            <span>$3.00</span>
+                        </div>
+                        <div class="total">
+                            <h4>Total</h4>
+                            <span>$7.98</span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="billingadress">
+                <h2>Billing address</h2>
+                <div class="selector">
+                    <div class="a">
+                        <input type="radio" id="same" name="billing" value="same">
+                        <label for="male">Same as the shipping address</label><br>
+                    </div>
+                    <div class="b">
+                        <input type="radio" id="different" name="billing" value="different">
+                        <label for="female">Use a different billing address</label><br>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="#">Return to shipping method</a>
+                <button>Complete order</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
